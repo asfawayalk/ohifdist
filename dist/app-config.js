@@ -9,9 +9,9 @@ window.config = {
     // dicomWeb: [
     //   {
     //     name: 'DCM4CHEE',
-    //     wadoUriRoot: 'http://localhost:8899/wado',
-    //     qidoRoot: 'http://localhost:8899/dicom-web',
-    //     wadoRoot: 'http://localhost:8899/dicom-web',
+    //     wadoUriRoot: 'http://10.10.2.39:8899/wado',
+    //     qidoRoot: 'http://10.10.2.39:8899/dicom-web',
+    //     wadoRoot: 'http://10.10.2.39:8899/dicom-web',
     //     qidoSupportsIncludeField: true,
     //     imageRendering: 'wadors',
     //     thumbnailRendering: 'wadors',
@@ -22,9 +22,9 @@ window.config = {
     dicomWeb: [
       {
         name: 'Orthanc',
-        wadoUriRoot: 'http://localhost:8899/wado',
-        qidoRoot: 'http://localhost:8899/dicom-web',
-        wadoRoot: 'http://localhost:8899/dicom-web',
+        wadoUriRoot: 'http://10.10.2.39:8899/wado',
+        qidoRoot: 'http://10.10.2.39:8899/dicom-web',
+        wadoRoot: 'http://10.10.2.39:8899/dicom-web',
         qidoSupportsIncludeField: false,
         imageRendering: 'wadors',
         thumbnailRendering: 'wadors',
